@@ -1,15 +1,15 @@
 {
-  "main.css": "/rickmastry/React_Recipe_Finder.git/static/css/main.935c52af.chunk.css",
-  "main.js": "/rickmastry/React_Recipe_Finder.git/static/js/main.92516dfa.chunk.js",
-  "main.js.map": "/rickmastry/React_Recipe_Finder.git/static/js/main.92516dfa.chunk.js.map",
-  "runtime~main.js": "/rickmastry/React_Recipe_Finder.git/static/js/runtime~main.d759ea27.js",
-  "runtime~main.js.map": "/rickmastry/React_Recipe_Finder.git/static/js/runtime~main.d759ea27.js.map",
-  "static/css/2.e6d2ac4b.chunk.css": "/rickmastry/React_Recipe_Finder.git/static/css/2.e6d2ac4b.chunk.css",
-  "static/js/2.4658a478.chunk.js": "/rickmastry/React_Recipe_Finder.git/static/js/2.4658a478.chunk.js",
-  "static/js/2.4658a478.chunk.js.map": "/rickmastry/React_Recipe_Finder.git/static/js/2.4658a478.chunk.js.map",
-  "index.html": "/rickmastry/React_Recipe_Finder.git/index.html",
-  "precache-manifest.28bbf019d2514d32c1cd7acd8d253c23.js": "/rickmastry/React_Recipe_Finder.git/precache-manifest.28bbf019d2514d32c1cd7acd8d253c23.js",
-  "service-worker.js": "/rickmastry/React_Recipe_Finder.git/service-worker.js",
-  "static/css/2.e6d2ac4b.chunk.css.map": "/rickmastry/React_Recipe_Finder.git/static/css/2.e6d2ac4b.chunk.css.map",
-  "static/css/main.935c52af.chunk.css.map": "/rickmastry/React_Recipe_Finder.git/static/css/main.935c52af.chunk.css.map"
+  "main.css": "/React_Recipe_Finder/static/css/main.935c52af.chunk.css",
+  "main.js": "/React_Recipe_Finder/static/js/main.86854c18.chunk.js",
+  "main.js.map": "/React_Recipe_Finder/static/js/main.86854c18.chunk.js.map",
+  "runtime~main.js": "/React_Recipe_Finder/static/js/runtime~main.3b4ab475.js",
+  "runtime~main.js.map": "/React_Recipe_Finder/static/js/runtime~main.3b4ab475.js.map",
+  "static/css/2.e6d2ac4b.chunk.css": "/React_Recipe_Finder/static/css/2.e6d2ac4b.chunk.css",
+  "static/js/2.4658a478.chunk.js": "/React_Recipe_Finder/static/js/2.4658a478.chunk.js",
+  "static/js/2.4658a478.chunk.js.map": "/React_Recipe_Finder/static/js/2.4658a478.chunk.js.map",
+  "index.html": "/React_Recipe_Finder/index.html",
+  "precache-manifest.5d61d5a8652ef5342259845a8343def2.js": "/React_Recipe_Finder/precache-manifest.5d61d5a8652ef5342259845a8343def2.js",
+  "service-worker.js": "/React_Recipe_Finder/service-worker.js",
+  "static/css/2.e6d2ac4b.chunk.css.map": "/React_Recipe_Finder/static/css/2.e6d2ac4b.chunk.css.map",
+  "static/css/main.935c52af.chunk.css.map": "/React_Recipe_Finder/static/css/main.935c52af.chunk.css.map"
 }

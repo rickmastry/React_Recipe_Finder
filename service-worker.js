@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rickmastry/React_Recipe_Finder.git/precache-manifest.28bbf019d2514d32c1cd7acd8d253c23.js"
+  "/React_Recipe_Finder/precache-manifest.5d61d5a8652ef5342259845a8343def2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/rickmastry/React_Recipe_Finder.git/index.html", {
+workbox.routing.registerNavigationRoute("/React_Recipe_Finder/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
