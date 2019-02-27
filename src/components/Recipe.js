@@ -38,7 +38,7 @@ class Recipe extends React.Component {
                 </p>
                 <button className="active-recipe__button">
 
-                 <Link to="/">Go Home</Link>
+                 <Link to="https://rickmastry.github.io/React_Recipe_Finder">Go Home</Link>
                 
                 
                 </button>
