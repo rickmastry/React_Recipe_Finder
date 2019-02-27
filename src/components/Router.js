@@ -1,15 +1,15 @@
 import React from 'react';
-import{BrowserRouter, Switch, Route} from 'react-router-dom';
+import{HashRouter, Switch, Route} from 'react-router-dom';
 import App from "../App";
 import Recipe from "./Recipe";
 
 const Router = () => (
-    <BrowserRouter basename="https://rickmastry.github.io/React_Recipe_Finder">
+    <HashRouter basename="https://rickmastry.github.io/React_Recipe_Finder">
      <Switch>
        <Route path="/" component={App} exact />
        <Route path="/recipe/:id" component={Recipe} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
 );
 
 
