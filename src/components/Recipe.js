@@ -16,10 +16,7 @@ class Recipe extends React.Component {
         const req = await fetch(`${proxy}https://www.food2fork.com/api/search?key=${API_KEY}&q=${title}`);
 
         const res = await req.json();
-        console.log(res);
         this.setState({ activeRecipe: res.recipes[0] });
-
-        console.log(this.state.activeRecipe);
       
     }
     render(){

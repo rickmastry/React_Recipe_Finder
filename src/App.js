@@ -27,6 +27,10 @@ class App extends Component {
       const recipes = JSON.stringify(this.state.recipes);
       localStorage.setItem("recipes", recipes);
   }
+
+  clearInput = (e) => {
+    e.target.elements.recipeName.value = '';
+};
   render() {
     return (
       <div className="App">
