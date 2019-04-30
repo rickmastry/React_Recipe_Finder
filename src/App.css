@@ -12,7 +12,7 @@ a {
 }
 
 button:focus {
-  outline: none;
+  outline: burlywood;
 }
 
 .App {
@@ -84,7 +84,7 @@ button:focus {
   border-bottom: solid 2px #2c3e50;
   margin-right: 10px;
   letter-spacing: 2px;
-  width: 10%;
+  width: 40%;
   padding: 0.4rem;
 }
 
@@ -159,4 +159,44 @@ input:-webkit-autofill {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+@media screen and (max-width: 746px) and (orientation:landscape){
+  .active-recipe__img {
+    width:100%;
+    height: 250px !important;
+  }
+
+  .active-recipe {
+    width: 80%;
+
+}
+
+img {
+  width: 100%;
+  height: 200px;
+}
+}
+@media screen and (max-width: 560px){
+  .active-recipe__img {
+    width:100%;
+    height: 250px !important;
+  }
+
+  .active-recipe {
+    width: 80%;
+
+}
+}
+@media screen and (max-width: 360px){
+
+  .active-recipe {
+    width: 100%;
+
+}
+
+img {
+  width: 100%;
+  height: 175px;
+}
 }

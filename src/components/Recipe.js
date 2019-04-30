@@ -47,6 +47,8 @@ class Recipe extends React.Component {
           </div>
         );
     }
+
+
 };
 
 
