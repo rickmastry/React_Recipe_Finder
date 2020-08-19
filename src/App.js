@@ -4,7 +4,8 @@ import './App.css';
 import Form from './components/Form';
 import Recipes from './components/Recipes';
 
-const API_KEY = "cc066a48599ff5cd3c3c06699f0cf0c3";
+//const API_KEY = "cc066a48599ff5cd3c3c06699f0cf0c3";
+const proxy = 'https://cors-anywhere.herokuapp.com/';
 
 class App extends Component {
   state = {
@@ -13,7 +14,7 @@ class App extends Component {
   getRecipe = async (e) => {
     const recipeName = e.target.elements.recipeName.value;
     e.preventDefault();
-    const api_call = await fetch(`https://recipesapi.herokuapp.com/api/search?&q=${recipeName}&count=10 `);
+    const api_call = await fetch(`${proxy}https://recipesapi.herokuapp.com/api/search?&q=${recipeName}&count=10 `);
     const data = await api_call.json();
     this.setState({recipes: data.recipes});
     console.log(this.state.recipes);
