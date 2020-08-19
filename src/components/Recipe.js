@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 
-const API_KEY = "cc066a48599ff5cd3c3c06699f0cf0c3";
+//const API_KEY = "cc066a48599ff5cd3c3c06699f0cf0c3";
 const proxy = 'https://cors-anywhere.herokuapp.com/';
 
 
@@ -13,7 +13,7 @@ class Recipe extends React.Component {
     componentDidMount = async () => {
        
         const title = this.props.location.state.recipe;
-        const req = await fetch(`${proxy}https://www.food2fork.com/api/search?key=${API_KEY}&q=${title}`);
+        const req = await fetch(`${proxy}https://recipesapi.herokuapp.com/api/search?&q=${title}`);
 
         const res = await req.json();
         this.setState({ activeRecipe: res.recipes[0] });
